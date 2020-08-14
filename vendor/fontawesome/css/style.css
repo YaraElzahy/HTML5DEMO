@@ -1,0 +1,90 @@
+@charset "UTF-8";
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7rem;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style: none;
+}
+/*Utility Classes*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.clear{
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.bg-dark{
+    background-color: #2F2F2F;
+}
+.text-primary{
+    color: #FED136;
+}
+.text-white{
+    color:#fff;
+}
+/*Navbar Style*/
+.navbar{
+    padding: 16px 0;
+}
+.navbar .nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .nav-items .logo a{
+    font-size: 2rem;
+    color: #FED136;
+    font-weight: bold;
+}.navbar .nav-items .links ul li{
+    display: inline-block;
+    padding: 0 8px;
+}
+.navbar .nav-items .links ul li a:hover{
+    color:#FED136;
+}
+.contact_container{
+    justify-content: center;
+    text-align: center;
+}
+.black_h2{
+    position: relative;
+    display: block;
+    text-align: Center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 2;
+    color: #000;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+.orange_hr{
+    background-color: #FED136;
+    color: #FED136;
+    border-color:  #FED136;
+    height: 1px;
+    width: 5%;
+    margin-left: 520px;
+}
+.contact_icons{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding-top: 70px;
+    margin-left: 71px;
+    height: 15rem;
+}
