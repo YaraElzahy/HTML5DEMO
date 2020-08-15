@@ -1,55 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" /> 
-        <meta name="description" content="IDE Academy"/>
-        <meta name="author" content="IDE Academy"/>
-        <meta name="keywords" content="HTML, CSS"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>HTML5 DEMO</title>
-        <!--Google Fonts-->
-        <link href="https://fonts:googleapis.com/css2?family=Roboto:ital@1&display=swap">
-        <!--Font Awesome-->
-        <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
-        <link rel="stylesheet" href="vendor/fontawesome/css/style.css">
-    </head>
-    <body>
-         <!--Navbar Area-->
-         <nav class="navbar bg-dark">
-             <div class="container nav-items">
-                 <div class="logo">
-                     <a href="#">Html5 Demo</a>
-                 </div>
-                 <div class="links">
-                     <ul>
-                         <li><a href="#">Home</a></li>
-                         <li><a href="#">Services</a></li>
-                         <li><a href="#">Portofolio</a></li>
-                         <li><a href="#">Contact</a></li>
-                     </ul>
-                 </div>
-             </div>
-         </nav>
-         <section id="contact">
-            <div class="contact_container">
-              <h2 class="black_h2">Let's Get In Touch!</h2>
-              <hr class="orange_hr"><br>
-              <p style="color: #6c757d;">
-                  Ready to start your next project with us? Give us a call or send us an email and we will<br> get back to you as soon as possible!
-              </p>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ide Academy">
+    <meta name="author" content="Ide Academy">
+    <meta name="keywords" content="Html , Css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Html5 Demo</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&family=Roboto:ital@1&display=swap"
+        rel="stylesheet"> <!-- Font Awesome -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css" />
+    <!-- Your Stylesheet File -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/style.css"/>
+</head>
+
+<body>
+    <!-- Navbar Area -->
+    <nav class="navbar bg-dark">
+        <div class="container nav-items">
+            <div class="logo">
+                <a href="#"><i class="fab fa-angellist"></i> Html5 Demo</a>
             </div>
-            <div class="contact_icons">
-                <div>
-                    <i style="padding-left: -2rem; color: #2f2f2f;" class="fas fa-3x fa-phone"></i>
-                    <p style="padding-left: 2rem; padding-top: 1.9rem; margin-left: -80px; color: #2f2f2f;">+1 (555) 123-4567</p>
-                  </div>
-                <div>
-                  <i style="padding-left: 8rem; color: #FED136;" class="fas fa-3x fa-envelope"></i><br><br>
-                  <a id="mail" style="padding-left: 4rem; color: #2f2f2f;" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
-  
+            <div class="links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portofolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- showcase Area -->
+    <section class="showcase text-center text-white">
+        <div class="container">
+            <div class="showcase-text">
+                <div class="subheading">Welcome To Our Studio!</div>
+                <hr>
+                <div class="mashead-heading">IT'S NICE TO MEET YOU</div>
+                <button class="bg-primary text-white">Tell Me More</button>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section class="services text-center">
+        <div class="container">
+            <h2>Services</h2>
+            <hr>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, repellendus.</p>
+            <div class="row">
+                <div class="col">
+                    <div class="icon">
+                        <i class="fas fa-cart-plus fa-5x bg-primary"></i>
+                    </div>
+                    <h3>E-Commerce</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi voluptatem quibusdam
+                        repellat fugit dolores ratione amet nulla iure modi suscipit quas, aspernatur. Illo ipsam,
+                        cumque!
+                    </p>
+                </div>
+                <div class="col">
+                    <div class="icon">
+                        <i class="fas fa-laptop fa-5x bg-primary"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi voluptatem quibusdam
+                        repellat fugit dolores ratione amet nulla iure modi suscipit quas, aspernatur. Illo ipsam,
+                        cumque!
+                    </p>
+                </div>
+                <div class="col">
+                    <div class="icon">
+                        <i class="fas fa-lock fa-5x bg-primary"></i>
+                    </div>
+                    <h3> Web Security</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi voluptatem quibusdam
+                        repellat fugit dolores ratione amet nulla iure modi suscipit quas, aspernatur. Illo ipsam,
+                        cumque!
+                    </p>
                 </div>
             </div>
-        </section>
-    </body>
+        </div>
+    </section>
+    <!-- About Area -->
+    <section class="about bg-dark text-white text-center">
+        <div class="container">
+            <h2>We've got what you need!</h2>
+            <hr>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores expedita modi necessitatibus magni iste provident doloremque, consectetur magnam laborum, molestiae harum soluta culpa a eos iure itaque nulla quasi, laboriosam ipsam maxime dignissimos voluptatum, quas velit facilis eligendi. Eligendi officiis minima quasi ducimus dolore aspernatur hic excepturi, ullam praesentium expedita?
+            </p>
+            <button>Get Started <i class="fab fa-angellist"></i></button>
+        </div>
+    </section>
+    <!-- Portofolio Area -->
+    <section class="portofolio">
+        <div class="container">
+            <div class="text-center">
+                <h2>Portofolio</h2>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, cum.
+                </p>
+            </div>
+        
+    <div class="roww">
+        <div class="coll"><img src="/images/portofolio-images/1.jpg" alt="first_image" style="width: 80%;"></div>
+        <div class="coll"><img src="/images/portofolio-images/2.jpg" alt="second_image" style="width: 80%;">
+        </div>
+    </div>
+    <div class="roww">
+        <div class="coll"><img src="/images/portofolio-images/3.jpg" alt="third_image" style="width: 80%;"></div>
+        <div class="coll"><img src="/images/portofolio-images/4.jpg" alt="first_image" style="width: 80%;"></div>
+    </div>
+    <div class="roww">
+        <div class="coll"><img src="/images/portofolio-images/5.jpg" alt="third_image" style="width: 80%;"></div>
+        <div class="coll"><img src="/images/portofolio-images/6.jpg" alt="first_image" style="width: 80%;"></div>
+ </div>
+</div>
+    <section class="contact text-center">
+        <div class="container">
+            <h2>Let's Get In Touch!</h2>
+            <hr>
+            <p>
+                Ready to start your next project with us? <br>
+                Give us a call or send us an email and we will get back to you as soon as possible!
+            </p>
+            <div class="row">
+               <div class="col">
+                   <div class="icon">
+                       <i class="fas fa-tty fa-3x"></i>
+                   </div>
+                   <p>
+                       <a href="#">+1 (555) 123-4567</a>
+                   </p>
+               </div>
+               <div class="col">
+                <div class="icon">
+                    <i class="fas fa-envelope fa-3x text-primary"></i>
+                </div>
+                <p>
+                    <a href="#" class="mail">contact@yourwebsite.com</a>
+                </p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center">
+        <div class="container">
+            Copyright <span class="text-primary">&copy;</span> 2020 All rights Reserved <br> Made With <span class="text-primary">&hearts;</span>
+        </div>
+    </footer>
+</body>
 </html>

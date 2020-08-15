@@ -32,6 +32,9 @@ ul{
 .bg-dark{
     background-color: #2F2F2F;
 }
+.bg-primary{
+    background-color: #FED136;
+}
 .text-primary{
     color: #FED136;
 }
@@ -57,34 +60,151 @@ ul{
 .navbar .nav-items .links ul li a:hover{
     color:#FED136;
 }
-.contact_container{
-    justify-content: center;
-    text-align: center;
+.showcase{
+    height: 695px;
+    background-image: url('https://htbm.info/wp/wp-content/uploads/2017/02/accessories-men-660x330.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
-.black_h2{
-    position: relative;
-    display: block;
-    text-align: Center;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 2;
-    color: #000;
-    box-sizing: border-box;
-    padding-top: 100px;
+.showcase .showcase-text{
+    padding-top: 140px;
 }
-.orange_hr{
-    background-color: #FED136;
-    color: #FED136;
-    border-color:  #FED136;
-    height: 1px;
+.showcase .subheading{
+    font-size: 1.8rem;
+    word-spacing: 8px;
+    font-style: italic;
+    padding: 30px 0;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: 600;
+}
+.showcase .showcase-text hr ,
+.services hr,
+.about hr ,
+.portofolio hr,
+.contact hr{
     width: 5%;
-    margin-left: 520px;
+    margin: 10px auto;
+    border: 4px solid #FED136;
 }
-.contact_icons{
-    display: flex; 
+.showcase .showcase-text .mashead-heading{
+    font-size: 4rem;
+    word-spacing: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 40px 0;
+    text-shadow: 1px 1px 1px #fff;
+}
+.showcase .showcase-text button{
+    font-size: 1.6rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 12px;
+    border: none;
+    background-color: #FED136;
+}
+.showcase .showcase-text button:hover{
+    background-color: #2F2F2F;
+    color: #FED136;
+} 
+/* Services Style */
+.services ,
+.portofolio,
+.contact{
+    margin-top: 100px;
+}
+.services h2 , 
+.about h2,
+.portofolio h2,
+.contact h2{
+    font-size: 3rem;
+}
+.services hr ,
+.about hr ,
+.portofolio hr,
+.contact hr{
+    margin: 20px auto;
+}
+.services .row{
+    display: flex;
+    margin-top: 50px;
+}
+.services .row .col{
+    padding: 20px;
+}
+.services .row .col .icon i{
+    padding: 35px;
+    border-radius: 50%;
+}
+.services .row .col h3{
+    margin: 25px 0;
+    font-size: 2rem;
+}
+/* About Style */
+.about{
+    padding: 85px;
+    margin-top: 25px;
+}
+.about button{
+    margin-top: 20px;
+    padding: 16px;
+    background-color: #FED136;
+    color: #2f2f2f;
+    border: none;
+    font-size: 25px;
+    border-radius: 40px;
+}
+.about button:hover{
+    color: #FED136;
+    background-color: #fff;
+}
+/* Portofolio Style */
+.portofolio .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: center; 
-    padding-top: 70px;
-    margin-left: 71px;
-    height: 15rem;
+}
+.portofolio p{
+    margin: 20px 0 45px 0;
+}
+.portofolio .row .col{
+    flex: 50%;
+  /*  margin: -6px 0;*/
+}
+.roww{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px;
+    margin-left: 100px;
+}
+.coll{
+    flex: 50%;
+    margin: -6px -55px;
+}
+.portofolio .row .col img:hover{
+    opacity: .8;
+}
+/* Contact Style */
+.contact p{
+    margin-bottom: 40px;
+}
+.contact .row{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.contact .row .col a{
+    color: #2f2f2f;
+}
+.contact .row .col .mail:hover{
+    color: #FED136;
+    text-shadow: .5px .5px 1px #FED136;
+}
+/* footer Style */
+footer{
+    margin-top: 20px;
+    padding: 20px;
 }
